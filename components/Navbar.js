@@ -45,7 +45,7 @@ const Navbar = () => {
               <Link href="#collection">Collections</Link>
             </li>
             <li className="p-4 hover:text-gray-300">
-              <Link href="/works">works</Link>
+              <Link href="/work">Works</Link>
             </li>
             <li className="p-4 hover:text-gray-300">
               <Link href="/contact">Contact</Link>
