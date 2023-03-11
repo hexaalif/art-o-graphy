@@ -19,7 +19,7 @@ const Slider = ({ slides }) => {
   }
 
   return (
-    <div className="max-w-[1240px] mx-auto">
+    <div id="collection" className="max-w-[1240px] mx-auto">
       <h1 className="py-24 text-4xl font-bold text-center">Collections</h1>
       <div>
         <div className="relative flex justify-center items-center ">

@@ -42,7 +42,7 @@ const Navbar = () => {
               <Link href="/">Home</Link>
             </li>
             <li className="p-4 hover:text-gray-300">
-              <Link href="/collection">Collections</Link>
+              <Link href="#collection">Collections</Link>
             </li>
             <li className="p-4 hover:text-gray-300">
               <Link href="/works">works</Link>

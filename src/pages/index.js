@@ -1,4 +1,5 @@
 import Hero from "components/Hero";
+import Insta from "components/Insta";
 import Slider from "components/Slider";
 import { SliderData } from "components/SliderData";
 import Head from "next/head";
@@ -20,7 +21,7 @@ export default function Home() {
         message="Look through your inner eyes in every Art."
       />
       <Slider slides={SliderData} />
-      <div></div>
+      <Insta />
     </>
   );
 }
