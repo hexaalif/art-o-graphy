@@ -1,9 +1,15 @@
+import ContactDetails from "components/ContactDetails";
+import Hero from "components/Hero";
 import React from "react";
 
 const contact = () => {
   return (
     <div>
-      <h1>Contact Page</h1>
+      <Hero
+        headings="Contact Me Now"
+        message="I like to work with enegetic people."
+      />
+      <ContactDetails />
     </div>
   );
 };
