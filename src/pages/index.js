@@ -1,4 +1,6 @@
 import Hero from "components/Hero";
+import Slider from "components/Slider";
+import { SliderData } from "components/SliderData";
 import Head from "next/head";
 // import styles from "@/styles/Home.module.css";
 
@@ -17,6 +19,7 @@ export default function Home() {
         headings="Art 0 Graphy"
         message="Look through your inner eyes in every Art."
       />
+      <Slider slides={SliderData} />
       <div></div>
     </>
   );
