@@ -1,4 +1,5 @@
 import Hero from "components/Hero";
+import Portfolio from "components/Portfolio";
 import React from "react";
 
 const work = () => {
@@ -8,7 +9,7 @@ const work = () => {
         headings="Latest Works"
         message="Dedication can depict your Inner telent"
       />
-      <h1>Works</h1>
+      <Portfolio />
     </div>
   );
 };

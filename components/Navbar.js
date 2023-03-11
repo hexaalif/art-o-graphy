@@ -99,16 +99,16 @@ const Navbar = () => {
           }
         >
           <ul>
-            <li className="p-4 text-4xl">
+            <li onClick={handleNav} className="p-4 text-4xl">
               <Link href="/">Home</Link>
             </li>
-            <li className="p-4 text-4xl">
+            <li onClick={handleNav} className="p-4 text-4xl">
               <Link href="/collection">Collections</Link>
             </li>
-            <li className="p-4 text-4xl">
-              <Link href="/works">works</Link>
+            <li onClick={handleNav} className="p-4 text-4xl">
+              <Link href="/work">works</Link>
             </li>
-            <li className="p-4 text-4xl">
+            <li onClick={handleNav} className="p-4 text-4xl">
               <Link href="/contact">Contact</Link>
             </li>
           </ul>
